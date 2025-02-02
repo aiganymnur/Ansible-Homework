@@ -1,0 +1,8 @@
+- name: Create users
+  ansible.builtin.user:
+    name: "{{ item }}"
+  loop:
+    - jenny
+    - jisoo
+    - rose
+    - lisa
